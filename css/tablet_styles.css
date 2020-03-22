@@ -1,0 +1,180 @@
+.header-menu{
+  height: 90px;
+}
+
+.logo{
+  font-size: 30px;
+}
+
+.slide-bg-img {
+  height: 481px;
+}
+
+.icon-animation {
+  position: absolute;
+  top: 26px;
+  right: 4rem;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.icon-animation span {
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background-color: #000;
+  transition: all 0.5s;
+}
+
+.top {
+  top: 7px;
+}
+
+.middle {
+  top: 20px;
+}
+
+.bottom {
+  bottom: 5px;
+}
+
+.menu-open .top {
+  transform: rotate(45deg);
+  top: 20px;
+}
+
+.menu-open .middle {
+  opacity: 0;
+}
+
+.menu-open .bottom {
+  transform: rotate(-45deg);
+  bottom: 17px;
+}
+
+.menu{
+  flex-direction: column;
+  width: 100vw;
+  height: 481px;
+  position: absolute;
+  top: 90px;
+  left: 100vw;
+  background: #fff;
+  opacity: 70%;
+  transition: .8s;
+  border-bottom: 1px solid #707070;
+}
+
+.menu-open .menu{
+   left: 0;
+}
+
+.menu li{
+  width: 100%;
+  line-height: 60px;
+}
+
+.footer-wrapper{
+  height: 25rem;
+  flex-direction: column;
+}
+
+.footer-menu{
+  margin-top: 8rem;
+}
+
+.sns-icon{
+  width: 15rem;
+  margin: 0 6rem 8rem auto;
+}
+
+.twitter img, .facebook img, .instagram img {
+  width: auto;
+  height: 3rem;
+}
+
+.subpage-wrapper{
+  padding-top: 90px;
+}
+
+.contact-wrapper{
+  width: 90%;
+}
+
+.tablet-must-newline{
+  position: relative;
+}
+
+.tablet-must-newline h3:after{
+  position: absolute;
+  top: 2.4rem;
+  left: 1rem;
+}
+
+.form section{
+  height: 7rem;
+}
+
+.form h3{
+  line-height: 7rem;
+}
+
+.contact-box{
+  height: 2rem;
+}
+
+.form .furigana,.form .mail,.form .contact-item{
+  height: 9rem;
+  position: relative;
+}
+
+.furigana h3{
+  line-height: 6rem;
+}
+
+.furigana h3:before{
+  top: 2.5rem;
+}
+
+.form .mail{
+  height: 10rem;
+}
+
+.mail h3{
+  line-height: 10rem;
+}
+
+.form .contact-contents{
+  height: 13rem;
+}
+
+.contact-contents h3{
+  line-height: 13rem;
+}
+
+.textbox .contents-box-size{
+  width: 75%;
+  height: 80%;
+  margin: 1rem 2rem;
+}
+
+.facility-contents{
+  width: 45%;
+  height: 14rem;
+}
+
+.vicinity-contents h3{
+  font-size: 2rem;
+}
+
+.vicinity-contents a {
+  font-size: 1.5rem;
+  width: 9rem;
+  padding: 0 2.5rem 0 1.5rem;
+}
+
+.vicinity-contents a::after {
+  top: 1.3vw;
+}

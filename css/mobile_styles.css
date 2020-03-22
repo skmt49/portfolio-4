@@ -1,0 +1,363 @@
+html{
+  /* 15px */
+  font-size: 4vw;
+}
+
+.logo{
+  font-size: 25px;
+}
+
+.menu{
+  top: 60px;
+  height: 481px;
+}
+
+.header-menu{
+  height: 60px;
+}
+
+.icon-animation{
+  top: 10px;
+  right: 1rem;
+}
+
+.icon-animation span{
+  width: 25px;
+  height: 3px;
+}
+
+.top {
+  top: 10px;
+}
+
+.middle {
+  top: 19px;
+}
+
+.bottom {
+  bottom: 9px;
+}
+
+
+.wrapper{
+  width: 100%;
+}
+
+.h2-center h2{
+  text-align: center;
+}
+
+.underline-length-news:before{
+  left: 35%;
+}
+
+.underline-length-map:before{
+  left: 40%;
+}
+
+.concept{
+  width: 100%;
+}
+
+.concept p{
+  font-size: 1rem;
+}
+
+.footer-wrapper{
+  min-height: 0;
+  height: auto;
+  flex-direction: column;
+}
+
+.footer-menu {
+  width: 15rem;
+  grid-gap: 10px;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 25px;
+  margin: 3rem auto;
+}
+
+.grid-box1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-box2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-box3{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-box7{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.grid-box5{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.grid-box6{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.grid-box7{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.grid-box8{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.sns-icon {
+  width: 15rem;
+  margin: 1rem auto 3rem;
+}
+
+.twitter img, .facebook img, .instagram img {
+  height: 2rem;
+}
+
+.subpage-wrapper{
+  padding-top: 60px;
+}
+
+.room-introduction h3{
+  font-size: 3rem;
+  top: -2rem;
+  left: -1.1rem;
+}
+
+.underline-length-room:before{
+  top: 4rem;
+  left: 40%;
+}
+
+.room-contents{
+  flex-direction: column;
+}
+
+.room-contents img{
+  width: 100%;
+}
+
+.room-sentence{
+  width: 100%;
+  height: 15rem;
+}
+
+.room-imgs{
+  margin-left: -10%;
+}
+
+.room-imgs img{
+  width: 19vw;
+  padding: 0 0.1rem;
+}
+
+.access h3{
+  margin: 8rem 2rem 3rem;
+}
+
+.underline-length-access:before{
+  left: 35%;
+}
+
+.access-box-list{
+  flex-direction: column;
+}
+
+.access-box{
+  width: 10rem;
+  margin: 3rem auto;
+  writing-mode: initial;
+  text-orientation: initial;
+}
+
+.vector{
+  margin: 0 auto;
+}
+
+.vector img{
+  width: 2rem;
+  transform: rotate(90deg);
+}
+
+.underline-length-company:before{
+  left: 35%;
+}
+
+.company-contents h3{
+  margin: 6rem auto;
+  text-align: center;
+}
+
+.company-contents p{
+  width: 100%;
+}
+
+.underline-length-contact:before{
+  left: 35%;
+}
+
+.contact-wrapper{
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.must h3::after{
+  margin-left: 0.5rem;
+}
+
+.form h3{
+  padding-left: 0.5rem;
+}
+
+.form .textbox{
+  flex-direction: column;
+}
+
+.contact-box{
+  width: 75%;
+  margin: 2rem;
+}
+
+
+.box-container{
+  margin: 1rem 0;
+}
+
+.example{
+  margin: -1.5rem 2rem 0;
+}
+
+.phone-remarks{
+  margin: -1.3rem 0 0 9rem;
+}
+
+.form .furigana{
+  height: 7.5rem;
+}
+
+.furigana h3:before{
+  font-size: 0.8rem;
+  top: 1rem;
+}
+
+.form .mail{
+  height: 9rem;
+}
+
+.mail h3{
+  line-height: 9rem;
+}
+
+.mail-remarks{
+  margin-left: 2rem;
+}
+
+.mail-box-size{
+  width: 85%;
+  margin: 0.5rem 0;
+}
+
+.tablet-must-newline h3:after{
+  top: 1.5rem;
+  left: 0;
+}
+
+.box-container{
+  margin: auto 0 auto 2rem;
+}
+
+.contact-box-size{
+  height: 10rem;
+}
+
+.underline-length-policy:before{
+  left: 6rem;
+  width: 22rem;
+}
+
+.underline-length-policy{
+  font-size: 1.8rem;
+}
+
+.underline-length-facility:before,
+  .underline-length-vicinity:before{
+  left: 7rem;
+  width: 14rem;
+}
+
+.facility-info,.vicinity-info{
+  flex-direction: column;
+}
+
+.facility-contents,.vicinity-contents{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.facility-pic,.vicinity-pic{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.facility-contents{
+  height: 8rem;
+}
+
+.facility-info:nth-of-type(2n) .facility-pic{
+  order: 1;
+}
+
+.facility-info:nth-of-type(2n) .facility-contents{
+  order: 2;
+}
+
+.vicinity-contents{
+  margin-top: 3rem;
+}
+
+.vicinity-contents a{
+  width: 6rem;
+  padding: 0 2rem 0 1rem;
+  font-size: 1rem;
+}
+
+.vicinity-contents h3{
+  font-size: 2rem;
+}
+
+.vicinity-contents a::after{
+  top: 1.8vw;
+}
+
+.news-contents{
+  width: 100%;
+  padding: 2rem;
+}
